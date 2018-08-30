@@ -1,0 +1,144 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "saudacao",
+        "text": "olá"
+      },
+      {
+        "intent": "saudacao",
+        "text": "oi"
+      },
+      {
+        "intent": "saudacao",
+        "text": "tudo bem?"
+      },
+      {
+        "intent": "saudacao",
+        "text": "boa noite!"
+      },
+      {
+        "intent": "saudacao",
+        "text": "bom dia!"
+      },
+      {
+        "intent": "saudacao",
+        "text": "boa tarde!"
+      },
+      {
+        "intent": "saudacao",
+        "text": "como vai?"
+      },
+      {
+        "intent": "localizacao",
+        "text": "onde vocês ficam?"
+      },
+      {
+        "intent": "localizacao",
+        "text": "onde é sua loja?"
+      },
+      {
+        "intent": "localizacao",
+        "text": "como chego na sua loja?"
+      },
+      {
+        "intent": "localizacao",
+        "text": "Qual sua cidade?"
+      },
+      {
+        "intent": "localizacao",
+        "text": "Como chego aí?"
+      },
+      {
+        "intent": "localizacao",
+        "text": "Envia o endereço"
+      },
+      {
+        "intent": "informacoes_entrega",
+        "text": "vocês enviam?"
+      },
+      {
+        "intent": "informacoes_entrega",
+        "text": "envia pelos correios?"
+      },
+      {
+        "intent": "informacoes_entrega",
+        "text": "envia para todo o brasil?"
+      },
+      {
+        "intent": "informacoes_entrega",
+        "text": "vocês entregam?"
+      },
+      {
+        "intent": "informacoes_entrega",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "combram",
+            "entity": "valor"
+          }
+        ],
+        "text": "vocês combram frete?"
+      },
+      {
+        "intent": "informacoes_entrega",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "valor",
+            "entity": "valor"
+          }
+        ],
+        "text": "Qual o valor do frete?"
+      },
+      {
+        "intent": "comprar_legging_marca_pfit",
+        "entities": [
+          {
+            "start": 15,
+            "end": 16,
+            "value": "P",
+            "entity": "size"
+          }
+        ],
+        "text": "Você tem calça P?"
+      },
+      {
+        "intent": "comprar_legging_marca_pfit",
+        "entities": [
+          {
+            "start": 16,
+            "end": 17,
+            "value": "M",
+            "entity": "size"
+          }
+        ],
+        "text": "Sua calça veste M?"
+      },
+      {
+        "intent": "comprar_legging_marca_pfit",
+        "entities": [
+          {
+            "start": 15,
+            "end": 16,
+            "value": "G",
+            "entity": "size"
+          }
+        ],
+        "text": "Você tem calça G?"
+      },
+      {
+        "intent": "despedir",
+        "text": "tchau"
+      },
+      {
+        "intent": "despedir",
+        "text": "até logo"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

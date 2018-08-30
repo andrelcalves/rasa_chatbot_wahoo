@@ -1,0 +1,33 @@
+slots:
+  tamanho:
+    type: text
+  cidade:
+    type: text
+
+intents:
+  - saudacao
+  - despedir
+  - localizacao
+  - informacoes_entrega
+  - informacoes_tamanho
+
+actions:
+- pronunciar_saudacao
+- pronunciar_despedir
+- pronunciar_localizacao
+- pronunciar_informacoes_entrega
+- pronunciar_informacoes_tamanho
+
+# lembre-se que os templates precisam possuir o mesmo nome da action, as action serão acionadas 
+# a partir da historia(stories.md)
+templates:
+  pronunciar_saudacao:
+  - text: "Olá!Como vai você?"
+  pronunciar_despedir:
+  - text: "Foi um prazer conversar com você. Tchau!"
+  pronunciar_localizacao:
+  - text: "Ficamos localizado no bairro da Pituba em Salvador-BA"
+  pronunciar_informacoes_entrega:
+  - text: "Enviamos para todo o Brasil e Exterior"
+  pronunciar_informacoes_tamanho:
+  - text: "Os tamanhos variam de acordo com cada modelo, temos modelos tamanho único que vestem do 36 ao 42 e modelos P,M e G"

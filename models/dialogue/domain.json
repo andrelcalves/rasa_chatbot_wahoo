@@ -1,0 +1,18 @@
+{
+  "states": [
+    "intent_despedir",
+    "intent_informacoes_entrega",
+    "intent_informacoes_tamanho",
+    "intent_localizacao",
+    "intent_saudacao",
+    "slot_tamanho_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_pronunciar_saudacao",
+    "prev_pronunciar_despedir",
+    "prev_pronunciar_localizacao",
+    "prev_pronunciar_informacoes_entrega",
+    "prev_pronunciar_informacoes_tamanho"
+  ]
+}

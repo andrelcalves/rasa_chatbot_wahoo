@@ -1,0 +1,45 @@
+%YAML 1.1
+---
+action_factory: null
+action_names:
+- pronunciar_saudacao
+- pronunciar_despedir
+- pronunciar_localizacao
+- pronunciar_informacoes_entrega
+- pronunciar_informacoes_tamanho
+actions:
+- pronunciar_saudacao
+- pronunciar_despedir
+- pronunciar_localizacao
+- pronunciar_informacoes_entrega
+- pronunciar_informacoes_tamanho
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- saudacao:
+    use_entities: true
+- despedir:
+    use_entities: true
+- localizacao:
+    use_entities: true
+- informacoes_entrega:
+    use_entities: true
+- informacoes_tamanho:
+    use_entities: true
+slots:
+  tamanho:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  pronunciar_despedir:
+  - text: Foi um prazer conversar com você. Tchau!
+  pronunciar_informacoes_entrega:
+  - text: Enviamos para todo o Brasil e Exterior
+  pronunciar_informacoes_tamanho:
+  - text: Os tamanhos variam de acordo com cada modelo, temos modelos tamanho único
+      que vestem do 36 ao 42 e modelos P,M e G
+  pronunciar_localizacao:
+  - text: Ficamos localizado no bairro da Pituba em Salvador-BA
+  pronunciar_saudacao:
+  - text: Olá!Como vai você?
